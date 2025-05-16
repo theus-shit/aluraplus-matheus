@@ -99,3 +99,26 @@ body {
     display: inline-block;
     margin-top: 1em;
 }
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+   font-size: 48px;
+    cor : var(--branco-principal);
+}
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+
